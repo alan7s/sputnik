@@ -833,7 +833,7 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
                 if (!fallthrough) { break; }
             
             case "VT URL":
-                urls.push("https://www.virustotal.com/#/home/url");
+                urls.push("https://www.virustotal.com/gui/search/"+artifact);
                 if (!fallthrough) { break; }
 
             case "X-Force URL":
